@@ -1,7 +1,10 @@
+/*
+Copyright © 2024 NAME HERE <EMAIL ADDRESS>
+*/
 package main
 
-import "fmt"
+import "nhinlee/event_platform/cmd"
 
 func main() {
-	fmt.Printf("Hello Event Platform")
+	cmd.Execute()
 }
