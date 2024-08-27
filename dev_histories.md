@@ -3,11 +3,14 @@
 ## 2024-08-27
 
 ### Create project structures
-/cmd
-/pkg
-/services
-/apis
-/migrations
-/scripts
+```
+root/
+├── cmd/
+├── pkg/
+├── services/
+├── apis/
+├── migrations/
+└── scripts/
+```
 
 ### TODO
