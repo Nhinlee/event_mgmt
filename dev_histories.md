@@ -13,4 +13,11 @@ root/
 └── scripts/
 ```
 
-### TODO
+### Deployment & Orchestration setup
+- CLI libs: 
+    - Cobra
+- Kubernetes tools & libs:
+    - Kind
+    - kubectl
+    - Helm
+    - Skaffold
