@@ -17,8 +17,6 @@ containerdConfigPatches:
     endpoint = ["http://${reg_name}:5000"]
   [plugins."io.containerd.grpc.v1.cri".registry.mirrors."kind-reg.actions-runner-system.svc"]
     endpoint = ["http://${reg_name}:5000"]
-  [plugins."io.containerd.grpc.v1.cri".registry.mirrors."asia-southeast1-docker.pkg.dev"]
-    endpoint = ["http://${reg_name}:5000"]
 EOF
 )
 
