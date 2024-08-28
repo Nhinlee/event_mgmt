@@ -1,7 +1,9 @@
 # Tools installed
 
-- Kind: `brew install kind`
-- Docker: 
+- kind: `brew install kind`
+- docker: 
     - Docker Desktop: https://docs.docker.com/desktop/install/mac-install/
     - Rosetta 2: `softwareupdate --install-rosetta`
-- Kubectl: `brew install kubectl`
+- kubectl: `brew install kubectl`
+    - Auto completion: https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/#enable-shell-autocompletion
+- k9s: `brew install k9s`

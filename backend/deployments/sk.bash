@@ -10,7 +10,8 @@ function collect_run_time {
 
 # Start the local k8s cluster. Use delete_cluster to delete it.
 function start_cluster() {
-  echo "Starting kind cluster ..."
+  chmod +x ./deployments/kind_with_registry.sh
+  ./deployments/kind_with_registry.sh
 }
 
 # Delete k8s cluster in local. Use start_cluster to start it again.
