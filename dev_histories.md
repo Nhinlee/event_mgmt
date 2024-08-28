@@ -10,6 +10,7 @@ root/
 ├── services/
 ├── apis/
 ├── migrations/
+├── deployments/
 └── scripts/
 ```
 
